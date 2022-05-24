@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    height: 300vh;
+    background-color: blueviolet;
+}
+
+header {
+    background-color: gray;
+    height: 90px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+section {
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    /* padding: 40px; */
+    /* display: inline-block; */
+    height: 300px;
+    width: 300px;
+    /* margin: 10px; */
+}
+
+.box-one {
+    background-color: purple; 
+}
+.box-two {
+    /* display: none; */
+    background-color: crimson;
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+}
+
+.box-child {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-three {
+    background-color: cadetblue;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+/* p {
+    font-size: 1em;
+} */
+/* 
+.elemento-x {
+    margin: 2.8rem;
+
+}
+
+#parrafito-especial {
+    color: indigo;
+} */
+
+/* p.text-red {
+    color: lightgreen;
+} */
+
+/* .text-red {
+    color: red;
+} */
+
+/* p {
+    color: blue;
+    font-size: 50px;
+    font-weight: 500;
+} */
+
+/* nav {
+    font-size: 1em;
+} */
+
+/* nav p {
+    font-size: 2em;
+}
+
+nav a {
+    font-size: 1em;
+    margin: 1rem;
+ }
+
+
+.menu__item__link {
+    color: green;
+}
+
+.navbar .navbar__menu .navbar__menu__item {
+    color: brown;
+    display: inline;
+} */
+
+
