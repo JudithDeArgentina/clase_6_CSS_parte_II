@@ -14,6 +14,7 @@ const validarCampos = (user,pass) => {
     }
         username.setCustomValidity('El campo de user no puede estar vacío')
     }
+    console.log("la que te pario")
 
 
 // btn.addEventListener('click',(e)) => 
